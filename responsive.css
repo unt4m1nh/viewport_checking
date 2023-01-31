@@ -1,0 +1,16 @@
+@media (min-width: 1239px) {
+    header .logo {
+        justify-content: left;
+    }
+}
+
+@media (max-width: 475px) {
+    header {
+        justify-content: center;
+        align-items: center;
+    }
+    header .logo {
+        text-transform: uppercase;
+        font-size: 0.7rem;
+    }
+}

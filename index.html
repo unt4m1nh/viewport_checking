@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Viewport Checking</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    
+</head>
+
+<body>
+    <header>
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-8 m-12 c-12">
+                    <div class="logo">
+                        <i class="material-icons" style="font-size:36px;">check_circle</i>
+                        <h1 class="page-title">ViewportChecking</h1>
+                    </div>
+                </div>
+                <div class="col l-4 m-4 c-0">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="grid wide container">
+        <div class="row">
+            <div class="col l-6 m-6 c-12">
+                <div class="item">
+                    <h1>WIDTH </h1>
+                    <div class="value-container">
+                        <h1 class="value" id="width-value"></h1>
+                    </div>
+                    <span>px</span>
+                </div>
+            </div>
+            <div class="col l-6 m-6 c-12">
+                <div class="item">
+                    <h1>HEIGHT </h1>
+                    <div class="value-container">
+                        <h1 id="height-value"></h1>
+                    </div>
+                    <span>px</span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="l-4 m-4 c-12 l-o-4 m-o-4">
+                <div class="item">
+                    <h1>DPR</h1>
+                    <div class="value-container">
+                        <h1 id="dpr-value"></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="getViewportDimension.js"></script>
+    <footer>
+        <a href="https://github.com/unt4m1nh">
+            <i class="fa fa-github" style="font-size:36px;" aria-hidden="true"></i>
+            <p>2023 Unta</p>
+        </a>
+    </footer>
+</body>
+
+</html>
